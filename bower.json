@@ -1,0 +1,19 @@
+{
+  "name": "cyb",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "angular": "~1.4.0",
+    "sweetalert": "~1.0.1",
+    "fullcalendar": "~2.3.2",
+    "moment": "~2.10.3"
+  }
+}
