@@ -21,10 +21,14 @@
         <!--/ CSS//-->
 
     
-    <link href="/css/homeVendor.css" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
-   
 
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/appVendor.css" rel="stylesheet">
+
+    <script src="/js/homeVendor.js"></script>
+
+    <script src="/js/homeJS.js"></script>
 
 
 
@@ -49,9 +53,7 @@
 <!--/ JS//-->
 
 
-<script src="/js/homeVendor.js"></script>
 
-<script src="/js/homeJS.js"></script>
 
 <script>
     // Portfolio

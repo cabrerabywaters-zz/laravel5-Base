@@ -14,7 +14,7 @@ var elixir = require('laravel-elixir');
 
 elixir(function (mix) {
 
-    mix.less(['app.less', 'style.less', 'font-awesome.min.less', 'animate.min.less', 'hoverex-all.less', 'prettyPhoto.less',])
+    mix.less(['app.less'])
 
         .styles(
         [
