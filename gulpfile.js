@@ -49,18 +49,6 @@ elixir(function (mix) {
 
         ], 'public/js/homeVendor.js', 'vendor/bower/'
     )
-        .scripts(
-        [
-
-            'retina-1.1.0.js',
-            'jquery.hoverdir.js',
-            'jquery.prettyPhoto.js',
-            'jquery.isotope.min.js',
-            'custom.js',
-
-
-        ], 'public/js/homeJS.js', 'public/js/'
-    )
 
 
 });

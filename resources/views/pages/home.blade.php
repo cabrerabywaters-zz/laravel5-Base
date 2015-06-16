@@ -21,7 +21,7 @@
                     <h5>More Lorem Ipsum added here too.</h5>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 himg">
-                    <img src="assets/img/browser.png" class="img-responsive">
+                    <img src="img/thumbs_up.png" class="img-responsive">
                 </div>
             </div><!-- /row -->
         </div> <!-- /container -->
@@ -65,11 +65,11 @@
             <div class="recentitems portfolio">
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_09.jpg" alt="">
+                        <img src="img/portfolio/portfolio_09.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -78,11 +78,11 @@
 
                 <div class="portfolio-item web-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_02.jpg" alt="">
+                        <img src="img/portfolio/portfolio_02.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -91,11 +91,11 @@
 
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_03.jpg" alt="">
+                        <img src="img/portfolio/portfolio_03.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -104,11 +104,11 @@
 
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_04.jpg" alt="">
+                        <img src="img/portfolio/portfolio_04.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -117,11 +117,11 @@
 
                 <div class="portfolio-item books">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_05.jpg" alt="">
+                        <img src="img/portfolio/portfolio_05.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -130,11 +130,11 @@
 
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_06.jpg" alt="">
+                        <img src="img/portfolio/portfolio_06.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -143,11 +143,11 @@
 
                 <div class="portfolio-item books">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_07.jpg" alt="">
+                        <img src="img/portfolio/portfolio_07.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -156,11 +156,11 @@
 
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_08.jpg" alt="">
+                        <img src="img/portfolio/portfolio_08.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -169,11 +169,11 @@
 
                 <div class="portfolio-item web-design">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_01.jpg" alt="">
+                        <img src="img/portfolio/portfolio_01.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -182,11 +182,11 @@
 
                 <div class="portfolio-item books">
                     <div class="he-wrap tpl6">
-                        <img src="assets/img/portfolio/portfolio_10.jpg" alt="">
+                        <img src="img/portfolio/portfolio_10.jpg" alt="">
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
                                 <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
@@ -257,16 +257,16 @@
             <div class="row centered">
                 <h3>OUR CLIENTS</h3>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="assets/img/clients/client01.png" class="img-responsive">
+                    <img src="img/clients/client01.png" class="img-responsive">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="assets/img/clients/client02.png" class="img-responsive">
+                    <img src="img/clients/client02.png" class="img-responsive">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="assets/img/clients/client03.png" class="img-responsive">
+                    <img src="img/clients/client03.png" class="img-responsive">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="assets/img/clients/client04.png" class="img-responsive">
+                    <img src="img/clients/client04.png" class="img-responsive">
                 </div>
             </div><! --/row -->
         </div><! --/container -->
