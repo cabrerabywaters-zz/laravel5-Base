@@ -19,34 +19,31 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
           rel='stylesheet' type='text/css'>
 
-    <!--/ CSS//-->
+    <!--/ css/home/home//-->
 
 
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/home/style.css" rel="stylesheet">
+    <link href="/css/home/font-awesome.min.css" rel="stylesheet">
     <link href="/css/appVendor.css" rel="stylesheet">
 
-    <script src="/js/homeVendor.js"></script>
+    <script src="/js/home/homeVendor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-    <script src="/js/retina-1.1.0.js"></script>
-    <script src="/js/jquery.hoverdir.js"></script>
-    <script src="/js/jquery.hoverex.min.js"></script>
-    <script src="/js/jquery.prettyPhoto.js"></script>
-    <script src="/js/jquery.isotope.min.js"></script>
-    <script src="/js/custom.js"></script>
+    <script src="/js/home/retina-1.1.0.js"></script>
+    <script src="/js/home/jquery.hoverdir.js"></script>
+    <script src="/js/home/jquery.hoverex.min.js"></script>
+    <script src="/js/home/jquery.prettyPhoto.js"></script>
+    <script src="/js/home/jquery.isotope.min.js"></script>
+    <script src="/js/home/custom.js"></script>
 
 
 </head>
 <body>
 
-@if(Auth::check())
-    @else
             <!--Barra de navegación-->
     @include('layouts/partials/navbarHome')
     <!-- #############/Barra de navegación##############-->
 
-@endif
 
 
     @yield('content')
@@ -96,7 +93,7 @@
 <! --/footerwrap -->
 
 
-<!--/ JS//-->
+<!--/ js/home//-->
 
 
 <script>
