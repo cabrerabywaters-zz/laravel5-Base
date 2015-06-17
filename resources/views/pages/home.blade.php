@@ -15,16 +15,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h3>Show your work with this beautiful theme</h3>
-                    <h1>Eyecatching Bootstrap 3 Theme.</h1>
-                    <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-                    <h5>More Lorem Ipsum added here too.</h5>
+
+                    <div class="jumbotron" style="  background-color: rgba(238, 238, 238, 0);">
+                        <h1>CYB Software</h1>
+
+                        <p><a class="btn btn-theme btn-lg" href="/auth/login" role="button">Ingresa</a></p>
+
+                        <h3>¡Comienza a menejar tu empresa como nunca antes!</h3>
+                    </div>
+
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 himg">
                     <img src="img/thumbs_up.png" class="img-responsive">
                 </div>
-            </div><!-- /row -->
-        </div> <!-- /container -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
     </div><!-- /headerwrap -->
 
     <!-- *****************************************************************************************************************
@@ -35,203 +42,44 @@
             <div class="row centered">
                 <div class="col-md-4">
                     <i class="fa fa-heart-o"></i>
-                    <h4>Handsomely Crafted</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h4>Diseño Impecable</h4>
+
+                    <p>Cansado de los ERP que parecen haber salido de los 80`s? ¡Nosotros también!. En CYB nos
+                        preocupamos de entregarte la mejor experiencia. Ya sea utilizando la aplicación en su versión
+                        Web o Mobile, no podrás volver a tu viejo sistema.
+                    </p>
+
                     <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-flask"></i>
-                    <h4>Retina Ready</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h4>Formulas Exactas</h4>
+
+                    <p>Elavoramos cada módulo para adaptarnos a los problemas cotidianos. Sabemos qué es lo que se
+                        necesita y cuándo lo necesitas. Nuestra simplesa te permitirá retomar las riendas de tu negocio.
+                    </p>
+
                     <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-trophy"></i>
-                    <h4>Quality Theme</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h4>Seguimiento de KPI´s</h4>
+
+                    <p>
+                        Ya sea que tu negocio sean las frutas o los reactores nucleares, todo negocio necesita medirse.
+                        Las ventas son sólo uno de los factores relevantes, pero si manejas más que a un grupo de
+                        vendedores, sabrás que los ERP's actuales no permiten todo lo que buscas.
+                        ¿ No sabes qué medir? Te lo sugerimos!.
+                    </p>
+
                     <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
                 </div>
             </div>
-        </div><! --/container -->
+        </div>
+        <! --/container -->
     </div><! --/service -->
 
-    <!-- *****************************************************************************************************************
-     PORTFOLIO SECTION
-     ***************************************************************************************************************** -->
-    <div id="portfoliowrap">
-        <h3>LATEST WORKS</h3>
 
-        <div class="portfolio-centered">
-            <div class="recentitems portfolio">
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_09.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_02.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_03.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_04.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_05.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_06.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_07.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_08.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_01.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-                        <img src="img/portfolio/portfolio_10.jpg" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                                <a data-rel="prettyPhoto" href="img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
-
-            </div><!-- portfolio -->
-        </div><!-- portfolio container -->
-    </div><!--/Portfoliowrap -->
-
-
-    <!-- *****************************************************************************************************************
-     MIDDLE CONTENT
-     ***************************************************************************************************************** -->
-
-    <div class="container mtb">
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-1">
-                <h4>More About Our Agency.</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                <p><br/><a href="about.html" class="btn btn-theme">More Info</a></p>
-            </div>
-
-            <div class="col-lg-3">
-                <h4>Frequently Asked</h4>
-                <div class="hline"></div>
-                <p><a href="#">How cool is this theme?</a></p>
-                <p><a href="#">Need a nice good-looking site?</a></p>
-                <p><a href="#">Is this theme retina ready?</a></p>
-                <p><a href="#">Which version of Font Awesome uses?</a></p>
-                <p><a href="#">Free support is integrated?</a></p>
-            </div>
-
-            <div class="col-lg-3">
-                <h4>Latest Posts</h4>
-                <div class="hline"></div>
-                <p><a href="single-post.html">Our new site is live now.</a></p>
-                <p><a href="single-post.html">Retina ready is not an option.</a></p>
-                <p><a href="single-post.html">Bootstrap 3 framework is the best.</a></p>
-                <p><a href="single-post.html">You need this theme, buy it now.</a></p>
-                <p><a href="single-post.html">This theme is what you need.</a></p>
-            </div>
-
-        </div><! --/row -->
-    </div><! --/container -->
 
     <!-- *****************************************************************************************************************
      TESTIMONIALS
@@ -241,21 +89,31 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <i class="fa fa-comment-o"></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <h4><br/>Marcel Newman</h4>
-                    <p>WEB DESIGNER - BLACKTIE.CO</p>
+
+                    <p>Con más de 20 años en la industria del plástico he visto y probado muchas soluciones ERP
+                        para mi empresa. Algunas parecen ser bastante buenas, pero al final del día, uno siempre busca
+                        cierto grado de personalización. Al final del día, con los Software más grandes uno intenta
+                        adaptar sus procesos para funcionar correctamente. CYB me ha entregado las herramienta y la
+                        flexibilidad que busco.
+                    </p>
+                    <h4><br/>Pedro Cabrera</h4>
+
+                    <p>Dueño - Copol Spa.</p>
                 </div>
-            </div><! --/row -->
-        </div><! --/container -->
+            </div>
+            <! --/row -->
+        </div>
+        <! --/container -->
     </div><! --/twrap -->
 
     <!-- *****************************************************************************************************************
-     OUR CLIENTS
-     ***************************************************************************************************************** -->
+        OUR CLIENTS
+        ***************************************************************************************************************** -->
     <div id="cwrap">
         <div class="container">
             <div class="row centered">
-                <h3>OUR CLIENTS</h3>
+                <h3>Nuestros Clientes</h3>
+
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <img src="img/clients/client01.png" class="img-responsive">
                 </div>
@@ -268,45 +126,13 @@
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <img src="img/clients/client04.png" class="img-responsive">
                 </div>
-            </div><! --/row -->
-        </div><! --/container -->
+            </div>
+            <! --/row -->
+        </div>
+        <! --/container -->
     </div><! --/cwrap -->
 
-    <!-- *****************************************************************************************************************
-     FOOTER
-     ***************************************************************************************************************** -->
-    <div id="footerwrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h4>About</h4>
-                    <div class="hline-w"></div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Social Links</h4>
-                    <div class="hline-w"></div>
-                    <p>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-tumblr"></i></a>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h4>Our Bunker</h4>
-                    <div class="hline-w"></div>
-                    <p>
-                        Some Ave, 987,<br/>
-                        23890, New York,<br/>
-                        United States.<br/>
-                    </p>
-                </div>
 
-            </div><! --/row -->
-        </div><! --/container -->
-    </div><! --/footerwrap -->
 
 
 

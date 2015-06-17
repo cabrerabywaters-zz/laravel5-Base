@@ -24,9 +24,9 @@ class PagesController extends Controller
      *
      * @return Response
      */
-    public function create()
+    public function about()
     {
-        //
+        return view('pages.about');
     }
 
     /**

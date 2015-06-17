@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,61 +14,100 @@
 
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    
-        <!--/ CSS//-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
 
-    
+    <!--/ CSS//-->
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/appVendor.css" rel="stylesheet">
+
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/appVendor.css" rel="stylesheet">
 
     <script src="/js/homeVendor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-    <script src="js/retina-1.1.0.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
-    <script src="js/jquery.hoverex.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/retina-1.1.0.js"></script>
+    <script src="/js/jquery.hoverdir.js"></script>
+    <script src="/js/jquery.hoverex.min.js"></script>
+    <script src="/js/jquery.prettyPhoto.js"></script>
+    <script src="/js/jquery.isotope.min.js"></script>
+    <script src="/js/custom.js"></script>
 
-
-
-  
 
 </head>
 <body>
 
 @if(Auth::check())
-@else
-<!--Barra de navegación-->
-@include('layouts/partials/navbarHome')
-<!-- #############/Barra de navegación##############-->
+    @else
+            <!--Barra de navegación-->
+    @include('layouts/partials/navbarHome')
+    <!-- #############/Barra de navegación##############-->
 
 @endif
 
 
-@yield('content')
+    @yield('content')
 
+
+<!-- *****************************************************************************************************************
+   FOOTER
+   ***************************************************************************************************************** -->
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>Nosotros</h4>
+
+                <div class="hline-w"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Redes Sociales</h4>
+
+                <div class="hline-w"></div>
+                <p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-tumblr"></i></a>
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Encuéntranos</h4>
+
+                <div class="hline-w"></div>
+                <p>
+                    Some Ave, 987,<br/>
+                    23890, New York,<br/>
+                    United States.<br/>
+                </p>
+            </div>
+
+        </div>
+        <! --/row -->
+    </div>
+    <! --/container -->
+</div>
+<! --/footerwrap -->
 
 
 <!--/ JS//-->
 
 
-
-
 <script>
     // Portfolio
-    (function($) {
+    (function ($) {
         "use strict";
         var $container = $('.portfolio'),
                 $items = $container.find('.portfolio-item'),
                 portfolioLayout = 'fitRows';
 
-        if( $container.hasClass('portfolio-centered') ) {
+        if ($container.hasClass('portfolio-centered')) {
             portfolioLayout = 'masonry';
         }
 
@@ -82,18 +120,17 @@
                 easing: 'linear',
                 queue: false
             },
-            masonry: {
-            }
+            masonry: {}
         }, refreshWaypoints());
 
         function refreshWaypoints() {
-            setTimeout(function() {
+            setTimeout(function () {
             }, 1000);
         }
 
-        $('nav.portfolio-filter ul a').on('click', function() {
+        $('nav.portfolio-filter ul a').on('click', function () {
             var selector = $(this).attr('data-filter');
-            $container.isotope({ filter: selector }, refreshWaypoints());
+            $container.isotope({filter: selector}, refreshWaypoints());
             $('nav.portfolio-filter ul a').removeClass('active');
             $(this).addClass('active');
             return false;
@@ -122,9 +159,9 @@
                     columnNumber = getColumnNumber(),
                     itemWidth = Math.floor(winWidth / columnNumber);
 
-            $container.find('.portfolio-item').each(function() {
-                $(this).css( {
-                    width : itemWidth + 'px'
+            $container.find('.portfolio-item').each(function () {
+                $(this).css({
+                    width: itemWidth + 'px'
                 });
             });
         }

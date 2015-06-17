@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::get('/about', 'PagesController@about');
 
 Route::get('/homeferfrefefer', function () {
     return "fewfewfew";
