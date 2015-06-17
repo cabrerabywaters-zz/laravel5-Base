@@ -19,10 +19,10 @@
 | This routes are for the Corporate Home Page.
 | Just some regular static pages.
 */
-Route::get('company/{company}/user/{user}/dashboard', 'DashboardController@role');
-
-
-
+Route::get('company/{company}/dashboard', [
+    'as'   => 'company.dashboard',
+    'uses' => 'RedirectController@dashboard'
+]);
 
 
 /*

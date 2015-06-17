@@ -35,15 +35,10 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      */
     protected $hidden = ['password', 'remember_token'];
 
-    /**
-     * Redirects the user according to his Role and Company
-     *
-     *
-     * @return User
-     */
+
     public function company()
     {
-        return $this->belongsTo('Company');
+        return $this->belongsTo('cyb\Company');
     }
 
 

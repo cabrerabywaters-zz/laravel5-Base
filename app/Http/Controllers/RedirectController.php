@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use \Illuminate\Support\Facades\Auth;
 use cyb\Http\Requests;
 use cyb\Http\Controllers\Controller;
+use cyb\Company;
+use cyb\User;
+
 
 class RedirectController extends Controller
 {
@@ -16,11 +19,25 @@ class RedirectController extends Controller
      */
     public function login()
     {
+
+
+        $company = Auth::user()->company_id;
+        $user = Auth::user()->id;
+
+        return redirect()->route('company.dashboard', [$company]);
+
+
+    }
+
+    public function dashboard($company)
+    {
         if (Auth::user()->hasRole('Default')) {
 
-            return redirect()->action('DefaultController@dashboard');
+            return view('default.dashboard');
 
-        };
+        }
+
+
     }
 
 

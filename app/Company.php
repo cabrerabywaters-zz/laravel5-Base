@@ -4,6 +4,7 @@ namespace cyb;
 
 use Illuminate\Database\Eloquent\Model;
 
+
 class Company extends Model
 {
     protected $fillable = [
@@ -18,7 +19,7 @@ class Company extends Model
 
     public function users()
     {
-        return $this->hasMany('User');
+        return $this->hasMany('cyb\User');
     }
 
 }
