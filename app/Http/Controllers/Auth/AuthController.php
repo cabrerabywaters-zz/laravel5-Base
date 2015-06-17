@@ -25,7 +25,7 @@ class AuthController extends Controller
 
 
         
-    protected $redirectTo = '/' ; 
+    protected $redirectTo = 'auth/redirect' ;
 
 
 
@@ -75,4 +75,6 @@ class AuthController extends Controller
 
          return $user;
     }
+
+
 }

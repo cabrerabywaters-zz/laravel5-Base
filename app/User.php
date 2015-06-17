@@ -34,4 +34,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    /**
+     * Redirects the user according to his Role and Company
+     *
+     *
+     * @return User
+     */
+    public function redirect()
+    {
+        dd(Auth::user());
+    }
 }

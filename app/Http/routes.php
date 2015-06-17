@@ -11,12 +11,43 @@
 |
 */
 
+/*
+|--------------------------------------------------------------------------
+| Company
+|--------------------------------------------------------------------------
+|
+| This routes are for the Corporate Home Page.
+| Just some regular static pages.
+*/
+
+
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Home Pages
+|--------------------------------------------------------------------------
+|
+| This routes are for the Corporate Home Page.
+| Just some regular static pages.
+*/
+
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 
-Route::get('/homeferfrefefer', function () {
-    return "fewfewfew";
-});
+/*
+|--------------------------------------------------------------------------
+| Auth
+|--------------------------------------------------------------------------
+|
+|   Authentication Routes
+*/
+
+
+//When a user logs in, it has to be redirect depending on his Roles.
+Route::get('auth/redirect', 'RedirectController@login');
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
