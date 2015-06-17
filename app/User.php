@@ -41,8 +41,11 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      *
      * @return User
      */
-    public function redirect()
+    public function company()
     {
-        dd(Auth::user());
+        return $this->belongsTo('Company');
     }
+
+
+
 }

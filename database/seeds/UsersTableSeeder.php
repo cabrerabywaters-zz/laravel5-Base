@@ -15,12 +15,15 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        
-       $user= User::create([
 
-        	'name' => "John",
-            'email' => "admin@cyb.cl",
-            'password' => Hash::make("123"),
+        $user = User::create([
+
+            'img'        => "NULL",
+            'email'      => "admin@cyb.cl",
+            'name'       => "Ignacio",
+            'last_name'  => "Cabrera",
+            'password'   => Hash::make("123"),
+            'company_id' => 1,
 
         ]);
 
@@ -29,26 +32,26 @@ class UsersTableSeeder extends Seeder
         $user->roles()->attach($default->id);
         $user->roles()->attach($owner->id);
 
-		$faker = Faker::create();
-		
-				foreach(range(1, 20) as $index)
-				{
-		           $user = User::create([
-		
-		                'name'        => $faker->firstName,
-		                'email'       => $faker->email,
-		                'password' => Hash::make("123"),
-		
-		
-		
-		            ]);
+        $faker = Faker::create();
+
+        foreach (range(1, 20) as $index) {
+            $user = User::create([
+                'img'        => "NULL",
+                'name'       => $faker->firstName,
+                'last_name'  => $faker->LastName,
+                'email'      => $faker->email,
+                'password'   => Hash::make("123"),
+                'company_id' => "0"
 
 
-			        $default = Role::findOrFail(1);
-			        $user->roles()->attach($default->id);
+            ]);
 
 
-		        }
+            $default = Role::findOrFail(1);
+            $user->roles()->attach($default->id);
+
+
+        }
 
 
     }
