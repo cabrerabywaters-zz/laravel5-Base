@@ -43,7 +43,19 @@
 
 <section id="container">
 
-@yield('content')
+    @yield('content')
+
+    <!--main content end-->
+    <!--footer start-->
+    <footer class="site-footer">
+        <div class="text-center">
+            2015 - {{Auth::user()->company->fancy_name}}
+            <a href="index.html#" class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!--footer end-->
 
 </section>
 
@@ -68,7 +80,6 @@
 <!--script for this page-->
 <script src="/js/app/sparkline-chart.js"></script>
 <script src="/js/app/zabuto_calendar.js"></script>
-
 
 
 <script type="application/javascript">

@@ -27,6 +27,29 @@ Route::get('company/{company}/dashboard', [
 
 /*
 |--------------------------------------------------------------------------
+| Users
+|--------------------------------------------------------------------------
+|
+| This routes are for the User.
+| Regular CRUD.
+*/
+Route::get('user/{user}/profile', [
+    'as'   => 'user.profile',
+    'uses' => 'UsersController@profile'
+]);
+
+Route::resource('user', 'UsersController');
+
+
+
+
+
+
+
+
+
+/*
+|--------------------------------------------------------------------------
 | Home Pages
 |--------------------------------------------------------------------------
 |
