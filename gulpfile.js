@@ -65,16 +65,17 @@ elixir(function (mix) {
          *////////////////////////////////////////////////////////////////
         .scripts(
         [
+
             'jquery/dist/jquery.min.js',
             'jquery-ui/jquery-ui.min.js',
+            'angular/angular.min.js',
             'bootstrap/dist/js/bootstrap.min.js',
             'angular-ui-calendar/calendar.min.js',
+            'moment/min/moment-with-locales.min.js',
             'fullcalendar/dist/fullcalendar.min.js',
             'fullcalendar/dist/gcal.js',
-            'moment/min/moment-with-locales.min.js',
 
             'sweetalert/dist/sweetalert.min.js',
-            'angular/angular.min.js',
 
 
         ], 'public/js/appVendor.js', 'vendor/bower/'
