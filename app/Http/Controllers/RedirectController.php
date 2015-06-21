@@ -24,7 +24,13 @@ class RedirectController extends Controller
         $company = Auth::user()->company_id;
         $user = Auth::user()->id;
 
-        return redirect()->route('company.dashboard', [$company]);
+        if (Auth::user()->hasRole('Owner')) {
+
+            return redirect()->route('owner.dashboard', [$company]);
+
+        } else {
+            return redirect()->route('company.dashboard', [$company]);
+        }
 
 
     }
@@ -34,6 +40,10 @@ class RedirectController extends Controller
         if (Auth::user()->hasRole('Default')) {
 
             return view('default.dashboard');
+
+        } elseif (Auth::user()->hasRole('Owner')) {
+
+            return view('owner.dashboard');
 
         }
 

@@ -11,27 +11,37 @@
 |
 */
 
-/*
-|--------------------------------------------------------------------------
-| Company
-|--------------------------------------------------------------------------
-|
-| This routes are for the Corporate Home Page.
-| Just some regular static pages.
-*/
-Route::get('company/{company}/dashboard', [
-    'as'   => 'company.dashboard',
+
+Route::get('owner/{owner}/dashboard', [
+    'as'   => 'owner.dashboard',
     'uses' => 'RedirectController@dashboard'
 ]);
 
 
 /*
 |--------------------------------------------------------------------------
+| Company
+|--------------------------------------------------------------------------
+
+*/
+
+Route::get('company/index', [
+    'as'   => 'companies.index',
+    'uses' => 'CompaniesController@indexView'
+]);
+
+Route::get('company/{company}/dashboard', [
+    'as'   => 'company.dashboard',
+    'uses' => 'RedirectController@dashboard'
+]);
+
+Route::resource('company', 'CompaniesController');
+
+
+/*
+|--------------------------------------------------------------------------
 | Users
 |--------------------------------------------------------------------------
-|
-| This routes are for the User.
-| Regular CRUD.
 */
 Route::get('user/{user}/profile', [
     'as'   => 'user.profile',
@@ -39,13 +49,6 @@ Route::get('user/{user}/profile', [
 ]);
 
 Route::resource('user', 'UsersController');
-
-
-
-
-
-
-
 
 
 /*

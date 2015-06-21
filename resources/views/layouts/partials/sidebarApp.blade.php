@@ -8,29 +8,43 @@
         <ul class="sidebar-menu" id="nav-accordion">
 
             <p class="centered"><a href="/user/{{Auth::user()->id}}/profile"><img src="/img/ui-sam.jpg"
-                                                                                class="img-circle" width="60"></a>
+                                                                                  class="img-circle" width="60"></a>
             </p>
             <h5 class="centered">{{Auth::user()->name." ".Auth::user()->last_name}}</h5>
 
             <li class="mt">
-                <a class="active" href="index.html">
-                    <i class="fa fa-dashboard"></i>
-                    <span>Dashboard</span>
-                </a>
+                @if(Auth::user()->hasRole(['Owner']))
+                    <a class="active" href="/owner/{{Auth::user()->id}}/dashboard">
+
+
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                @else
+                    <a class="active" href="/company/{{Auth::user()->company->id}}/dashboard">
+
+
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+
+                @endif
             </li>
 
-            <li class="sub-menu">
-                <a href="javascript:;">
-                    <i class="fa fa-desktop"></i>
-                    <span>UI Elements</span>
-                </a>
-                <ul class="sub">
-                    <li><a href="general.html">General</a></li>
-                    <li><a href="buttons.html">Buttons</a></li>
-                    <li><a href="panels.html">Panels</a></li>
-                </ul>
-            </li>
 
+            @if(Auth::user()->hasRole(['Owner']))
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-desktop"></i>
+                        <span>Empresas</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="/company/index">Clientes</a></li>
+                        <li><a href="buttons.html">En el sistema</a></li>
+                        <li><a href="panels.html">Panels</a></li>
+                    </ul>
+                </li>
+            @endif
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-cogs"></i>

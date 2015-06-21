@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
 
         $default = Role::findOrFail(1);
         $owner = Role::findOrFail(2);
-        $user->roles()->attach($default->id);
+        //$user->roles()->attach($default->id);
         $user->roles()->attach($owner->id);
 
         $faker = Faker::create();

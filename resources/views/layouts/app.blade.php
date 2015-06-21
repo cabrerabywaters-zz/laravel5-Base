@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="CYB">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +7,12 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - FREE Bootstrap Admin Template</title>
+    <title>CYB - Software</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/app/bootstrap.css" rel="stylesheet">
-    <!--external css-->
-    <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="/css/app/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="/js/app/gritter/css/jquery.gritter.css"/>
-    <link rel="stylesheet" type="text/css" href="/lineicons/style.css">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/app/style.css" rel="stylesheet">
-    <link href="/css/app/style-responsive.css" rel="stylesheet">
+    <link href="/css/appVendor.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/app/appTheme.css" rel="stylesheet">
 
     <script src="/js/app/chart-master/Chart.js"></script>
 
@@ -28,6 +21,15 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <script src="/js/appVendor.js"></script>
+
+
+
+
+
+    @yield('scripts')
 </head>
 
 <body>
@@ -61,25 +63,9 @@
 
 
 </body>
-<!-- js placed at the end of the document so the pages load faster -->
-<script src="/js/app/jquery.js"></script>
-<script src="/js/app/jquery-1.8.3.min.js"></script>
-<script src="/js/app/bootstrap.min.js"></script>
-<script class="include" type="text/javascript" src="/js/app/jquery.dcjqaccordion.2.7.js"></script>
-<script src="/js/app/jquery.scrollTo.min.js"></script>
-<script src="/js/app/jquery.nicescroll.js" type="text/javascript"></script>
-<script src="/js/app/jquery.sparkline.js"></script>
 
 
-<!--common script for all pages-->
-<script src="/js/app/common-scripts.js"></script>
-
-<script type="text/javascript" src="/js/app/gritter/js/jquery.gritter.js"></script>
-<script type="text/javascript" src="/js/app/gritter-conf.js"></script>
-
-<!--script for this page-->
-<script src="/js/app/sparkline-chart.js"></script>
-<script src="/js/app/zabuto_calendar.js"></script>
+<script src="/js/app/appTHeme.js"></script>
 
 
 <script type="application/javascript">
