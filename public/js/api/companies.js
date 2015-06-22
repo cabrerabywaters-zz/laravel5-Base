@@ -1,1 +1,1 @@
-var Companies = angular.module('CYBApp', ['CompanyCtrl', 'companyService']);
+var Companies = angular.module('CYBApp', ['CompanyCtrl', 'companyService', 'countryService']);

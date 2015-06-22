@@ -8,10 +8,13 @@
     <!-- all angular resources will be loaded from the /public folder -->
     <script src="/js/controllers/companyCtrl.js"></script> <!-- load our controller -->
     <script src="/js/services/companyService.js"></script> <!-- load our service -->
+    <script src="/js/controllers/countryCtrl.js"></script> <!-- load our controller -->
+    <script src="/js/services/countryService.js"></script> <!-- load our service -->
     <script src="/js/api/companies.js"></script> <!-- load our application -->
 
 
-
+    <section id="main-content">
+        <section class="wrapper site-min-height">
 
     <div class="row mt">
         <div class="col-lg-12" ng-controller="companyController">
@@ -30,12 +33,12 @@
                 <table class="table table-striped table-advance table-hover">
                     <h4><i class="fa fa-angle-right"></i> Buscar Empresa</h4>
                     <div class="container">
-                    <div class="form-group">
-                        <input class="col-lg-12" type="text" id="filter" placeholder="Comience a escribir..."
-                               ng-model="search">
 
-                    </div>
+                        <div class="col-sm-12 col-lg-12">
+                            <input class="form-control" type="text" id="filter" placeholder="Comience a escribir..."
+                                   ng-model="search">
 
+                        </div>
 
 
                     </div>
@@ -53,7 +56,8 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr  ng-repeat="company in companies| filter:search | orderBy:'fancy_name'| limitTo:20">
+                    <tr  ng-repeat="company in companies| filter:search | orderBy:'fancy_name'|
+                    limitTo:20">
                         <td><a href="basic_table.html#">@{{ company.rut }}</a></td>
                         <td class="hidden-phone">   @{{ company.fancy_name }}</td>
                         <td> @{{ company.description }} </td>
@@ -72,7 +76,8 @@
 
         </div>
     </div>
-
+</section>
+    </section>
 
 
 

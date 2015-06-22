@@ -150,6 +150,7 @@ return [
         'Zizaco\Entrust\EntrustServiceProvider',
         'Maatwebsite\Excel\ExcelServiceProvider',
 
+
     ],
 
     /*
