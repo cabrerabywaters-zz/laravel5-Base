@@ -26,10 +26,6 @@
     <script src="/js/appVendor.js"></script>
 
 
-
-
-
-    @yield('scripts')
 </head>
 
 <body>
@@ -44,8 +40,21 @@
 
 
 <section id="container">
+    <!-- **********************************************************************************************************************************************************
+         MAIN CONTENT
+         *********************************************************************************************************************************************************** -->
+    <!--main content start-->
 
-    @yield('content')
+    <section id="main-content">
+        <section class="wrapper site-min-height">
+
+            @yield('content')
+
+
+        </section>
+        <! --/wrapper -->
+    </section>
+    <!-- /MAIN CONTENT -->
 
     <!--main content end-->
     <!--footer start-->

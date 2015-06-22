@@ -19,6 +19,7 @@ class CreateCompaniesTable extends Migration
             $table -> string('rut')->unique();
             $table ->string('img',200)->nullable();
             $table ->string('adress');
+            $table ->string('adress_number');
             $table ->string('city');
             $table ->string('location');
             $table ->string('phone_number');
