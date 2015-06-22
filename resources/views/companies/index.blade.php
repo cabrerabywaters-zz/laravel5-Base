@@ -25,7 +25,8 @@
 
             <!-- LOADING ICON =============================================== -->
             <!-- show loading icon if the loading variable is set to true -->
-            <p class="text-center" ng-show="loading"><span class="fa fa-meh-o fa-5x fa-spin"></span></p>
+            <p class="text-center" ng-show="loading"><span class="fa fa-spinner fa-spin fa-5x fa-fw
+            margin-bottom"></span></p>
             @include('companies/create')
 
             <div class="content-panel" ng-hide="loading">

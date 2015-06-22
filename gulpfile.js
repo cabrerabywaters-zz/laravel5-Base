@@ -49,8 +49,10 @@ elixir(function (mix) {
             'font-awesome/css/font-awesome.css',
             'zabuto_calendar.css',
             '../lineicons/style.css',
-            'style-responsive.css',
+
             'style.css',
+            'style-responsive.css',
+
 
             ///js/app/gritter/css/jquery.gritter.css
 
@@ -76,6 +78,8 @@ elixir(function (mix) {
             'fullcalendar/dist/gcal.js',
 
             'sweetalert/dist/sweetalert.min.js',
+
+            'angular-bootstrap/ui-bootstrap-tpls.min.js',
 
 
         ], 'public/js/appVendor.js', 'vendor/bower/'

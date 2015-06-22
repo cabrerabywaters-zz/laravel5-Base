@@ -17,7 +17,7 @@
     |--------------------------------------------------------------------------
 
     */
-    Route::resource('country', 'CountriesController');
+
 
 
     Route::get('owner/{owner}/dashboard', [
