@@ -8,13 +8,14 @@ angular.module('companyService', [])
                 return $http.get('/company');
             },
 
-            // save a comment (pass in comment data)
-            store: function (commentData) {
+            // save a company (pass in company data)
+            store: function (companyData) {
+
                 return $http({
                     method: 'POST',
-                    url: '/api/comments',
+                    url: '/company',
                     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                    data: $.param(commentData)
+                    params: companyData
                 });
             },
 
