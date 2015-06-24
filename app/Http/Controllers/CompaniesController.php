@@ -8,7 +8,7 @@
     use cyb\Http\Requests;
     use cyb\Http\Controllers\Controller;
     use cyb\Company;
-
+    use Image;
 
     class CompaniesController extends Controller
     {
@@ -42,11 +42,18 @@
         {
 
             $input = $request->input("img");
-            dd($input);
+            $data = base64_decode($input);
+            $img = Image::make($data);
+
+            $location = time() . '-' . 'original-' . mt_rand() . ".png";
+            $img->save(public_path() . "/uploads/" . $location);
+
+
             if (Company::create($input)) {
 
                 return response()->json(['success' => true]);
             }
+
         }
 
         /**

@@ -149,6 +149,7 @@ return [
         */
         'Zizaco\Entrust\EntrustServiceProvider',
         'Maatwebsite\Excel\ExcelServiceProvider',
+        'Intervention\Image\ImageServiceProvider'
 
 
     ],
@@ -205,6 +206,7 @@ return [
         */
         'Entrust' => 'Zizaco\Entrust\EntrustFacade',
         'Excel' => 'Maatwebsite\Excel\Facades\Excel',
+        'Image' => 'Intervention\Image\Facades\Image'
 
     ],
 

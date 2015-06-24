@@ -113,8 +113,6 @@ angular.module('CompanyCtrl', [])
             Company.store($scope.companyData,$scope.img)
                 .success(function (data) {
 
-
-
                     // if successful, we'll need to refresh the comment list
                     Company.index()
                         .success(function (getData) {
