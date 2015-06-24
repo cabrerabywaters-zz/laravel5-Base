@@ -9,13 +9,14 @@ angular.module('companyService', [])
             },
 
             // save a company (pass in company data)
-            store: function (companyData) {
+            store: function (companyData, img) {
 
                 return $http({
                     method: 'POST',
                     url: '/company',
-                    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                    params: companyData
+
+                    params: companyData,
+                    data: {"img": img}
                 });
             },
 

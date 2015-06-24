@@ -1,1 +1,1 @@
-var Companies = angular.module('CYBApp', ['CompanyCtrl', 'companyService', 'countryService','ui.bootstrap']);
+var Companies = angular.module('CYBApp', ['CompanyCtrl', 'companyService', 'countryService','ui.bootstrap','ngImgCrop']);

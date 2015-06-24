@@ -9,6 +9,59 @@ angular.module('CompanyCtrl', [])
         $scope.loading = true;
 
 
+
+
+        $scope.myImage='';
+        $scope.myCroppedImage='';
+        $scope.img = "";
+
+
+        var handleFileSelect=function(evt) {
+            var file=evt.currentTarget.files[0];
+            var reader = new FileReader();
+            reader.onload = function (evt) {
+                $scope.$apply(function($scope){
+                    $scope.myImage=evt.target.result;
+                });
+            };
+            reader.readAsDataURL(file);
+
+
+        };
+
+        $scope.getBase64Image =function (imgElem) {
+
+            var canvas = document.createElement("canvas");
+            canvas.width = imgElem.clientWidth;
+            canvas.height = imgElem.clientHeight;
+            var ctx = canvas.getContext("2d");
+            ctx.drawImage(imgElem, 0, 0);
+            var dataURL = canvas.toDataURL("image/png");
+
+            return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+
+        };
+
+
+
+
+        $scope.imgElem = document.getElementById('img');
+
+        angular.element(document.querySelector('#fileInput')).on('change',handleFileSelect);
+
+
+
+        $scope.transformBase64 = function (imgElem) {
+            // imgElem must be on the same server otherwise a cross-origin error will be thrown "SECURITY_ERR: DOM Exception 18"
+            var canvas = document.createElement("canvas");
+            canvas.width = imgElem.clientWidth;
+            canvas.height = imgElem.clientHeight;
+            var ctx = canvas.getContext("2d");
+            ctx.drawImage(imgElem, 0, 0);
+            var dataURL = canvas.toDataURL("image/png");
+            return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+        }
+
         /*
          |--------------------------------------------------------------------------
          |Get Locations from google API
@@ -54,9 +107,13 @@ angular.module('CompanyCtrl', [])
 
         $scope.submitCompany = function () {
             $scope.loading = true;
+            $scope.img=JSON.stringify($scope.transformBase64($scope.imgElem));
 
-            Company.store($scope.companyData)
+
+            Company.store($scope.companyData,$scope.img)
                 .success(function (data) {
+
+
 
                     // if successful, we'll need to refresh the comment list
                     Company.index()

@@ -40,8 +40,9 @@
          */
         public function store(CreateCompanyRequest $request)
         {
-            $input = $request->all();
 
+            $input = $request->input("img");
+            dd($input);
             if (Company::create($input)) {
 
                 return response()->json(['success' => true]);

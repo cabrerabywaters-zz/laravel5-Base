@@ -25,7 +25,8 @@ elixir(function (mix) {
         ['bootstrap/dist/css/bootstrap.min.css',
             'fullcalendar/dist/fullcalendar.min.css',
 
-            'sweetalert/dist/sweetalert.css'
+            'sweetalert/dist/sweetalert.css',
+            'ngImgCrop/compile/minified/ng-img-crop.css',
 
         ], 'public/css/appVendor.css', 'vendor/bower/'
     )
@@ -80,6 +81,7 @@ elixir(function (mix) {
             'sweetalert/dist/sweetalert.min.js',
 
             'angular-bootstrap/ui-bootstrap-tpls.min.js',
+            'ngImgCrop/compile/minified/ng-img-crop.js',
 
 
         ], 'public/js/appVendor.js', 'vendor/bower/'

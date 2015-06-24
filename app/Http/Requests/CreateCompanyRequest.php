@@ -28,6 +28,7 @@ class CreateCompanyRequest extends Request
             'fancy_name'=> 'required',
             'address'=>'required',
             'description'=> 'required',
+            'img'=>'image'
 
         ];
     }
