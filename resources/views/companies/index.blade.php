@@ -18,7 +18,7 @@
 
     <div class="row mt">
         <div class="col-lg-12" ng-controller="companyController">
-            <div class="container">
+            <div class="container-fluid">
                 <button type="button" ng-model="collapsed" ng-click="collapsed=!collapsed"
                         class="btn btn-theme03 pull-right" style="margin-top: 5px">Agregar Empresa</button>
             </div>
@@ -33,7 +33,7 @@
 
                 <table class="table table-striped table-advance table-hover">
                     <h4><i class="fa fa-angle-right"></i> Buscar Empresa</h4>
-                    <div class="container">
+                    <div class="container-fluid">
 
                         <div class="col-sm-12 col-lg-12">
                             <input class="form-control" type="text" id="filter" placeholder="Comience a escribir..."
@@ -64,7 +64,7 @@
                         <td> @{{ company.description }} </td>
                         <td><span class="label label-info label-mini">Due</span></td>
                         <td>
-                            <button class="btn btn-success btn-xs"><i class="fa fa-check"></i></button>
+                            
                             <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
                             <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
                         </td>

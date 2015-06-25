@@ -65,20 +65,35 @@
                     </div>
                 </div>
 
+                <div class="form-group">
+                    <label class="col-sm-2 col-sm-2 control-label">IMÁGEN</label>
 
-                <div>Select an image file: <input type="file" id="fileInput" /></div>
-                <div style="background: #E4E4E4;  overflow: hidden;  width:500px;  height:350px;">
-                    <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
-                </div>
-                <div>Cropped Image:</div>
-                <div><img ng-src="@{{myCroppedImage}}" id="img" /></div>
-                  <span class="bg-danger text-danger pull-right" ng-repeat="error in errors.img">@{{
+                    <div class="col-sm-10 col-lg-6">
+                        <div class="container-fluid">
+                            <div>Select an image file: <input type="file" id="fileInput" /></div>
+                            <div class="container-fluid" style="background: #E4E4E4 ;  overflow: hidden;  width:300px;
+                height:150px;">
+                                <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
+                            </div>
+                            <div>Así se verá la Imagen:</div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-md-offset-3 col-lg-offset-3"><img
+                                        ng-src="@{{myCroppedImage}}"
+                                                                                 id="img" /></div>
+
+                        </div>
+                        <span class="bg-danger text-danger pull-right" ng-repeat="error in errors.img">@{{
                         error
                         }}</span>
 
+                    </div>
+                </div>
+
+
+
+
+
                 <button ng-click="submitCompany()" type="button" class="btn btn-success">Success</button>
 
-                <button ng-click="click()">Ver imagen</button>
             </form>
         </div>
     </div>

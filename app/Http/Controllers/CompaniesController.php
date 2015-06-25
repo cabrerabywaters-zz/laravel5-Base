@@ -49,6 +49,11 @@
             $img->save(public_path() . "/uploads/" . $location);
 
 
+            $input = $request->all();
+
+            $input["img"] = $location;
+
+
             if (Company::create($input)) {
 
                 return response()->json(['success' => true]);
