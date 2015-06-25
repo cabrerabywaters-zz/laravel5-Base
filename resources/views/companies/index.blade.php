@@ -64,7 +64,7 @@
                         <td> @{{ company.description }} </td>
                         <td><span class="label label-info label-mini">Due</span></td>
                         <td>
-                            
+
                             <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
                             <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
                         </td>
